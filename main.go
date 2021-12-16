@@ -1,9 +1,8 @@
 package main
 
 func main(){
-  makeFilter()
+  	makeFilter()
 }
-
 
 type cweStruct struct {
 	Name  string
@@ -61,6 +60,7 @@ func makeFilter() {
 		fmt.Println(err)
 		return
 	}
+
 	f.WriteString("package main\nvar(")
 
 	for _, v := range lang {
@@ -110,6 +110,7 @@ func makeFilter() {
 
 			max = 0
 		}
+
 		f.WriteString(allCwes)
 		f.WriteString("\n}")
 	}
