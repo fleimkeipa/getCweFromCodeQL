@@ -64,7 +64,6 @@ func makeFilter() {
 	f.WriteString("package main\nvar(")
 
 	for _, v := range lang {
-
 		blogTitles, err := GetAllCWE(v)
 		f.WriteString(fmt.Sprintf("\n%s=map[string][]string{\n", v.display))
 
