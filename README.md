@@ -7,3 +7,5 @@ take all cwe's in this site and mapping;<br/>
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.<br/>
 }
+
+save file in cwes.go on workspace
