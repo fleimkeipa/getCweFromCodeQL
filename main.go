@@ -66,7 +66,7 @@ func makeFilter() {
 
 	for _, v := range lang {
 
-		blogTitles, err := GetSans25(v)
+		blogTitles, err := GetAllCWE(v)
 		f.WriteString(fmt.Sprintf("\n%s=map[string][]string{\n", v.display))
 
 		if err != nil {
