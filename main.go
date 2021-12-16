@@ -49,7 +49,7 @@ func makeFilter() {
 }
 
 
-func GetSans25() ([]cweStruct, error) {
+func GetAllCWE() ([]cweStruct, error) {
 	url := "https://codeql.github.com/codeql-query-help/cpp-cwe/"
 	// Get the HTML
 	resp, err := http.Get(url)
