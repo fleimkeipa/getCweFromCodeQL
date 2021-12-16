@@ -55,7 +55,6 @@ var lang = []language{
 	},
 }
 
-
 func makeFilter() {
 	f, err := os.Create("cwes.go")
 	if err != nil {
@@ -116,7 +115,6 @@ func makeFilter() {
 	}
 	f.WriteString("\n)")
 }
-
 
 func GetAllCWE(lang language) ([]cweStruct, error) {
 	url := fmt.Sprintf("https://codeql.github.com/codeql-query-help/%s-cwe/", lang.name)
